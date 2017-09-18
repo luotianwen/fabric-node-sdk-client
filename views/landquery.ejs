@@ -59,7 +59,7 @@
         var name=$("#name").val();
         var _html="";
         //getJSON
-        $.post("http://192.168.1.182:3000/land/query",{id:id,name:name},function (data) {
+        $.post("http://127.0.0.1:3000/land/query",{id:id,name:name},function (data) {
             console.log(data);
             for(var i=0;i<data.length;i++){
 
